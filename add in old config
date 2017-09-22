@@ -1,0 +1,2 @@
+$GLOBALS["MySQL_mod"] = "mysql";
+if (PHP_MAJOR_VERSION > 6) {require_once dirname(__FILE__) . "/mysqlfunc7.php";}
